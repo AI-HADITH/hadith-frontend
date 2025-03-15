@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.logo {
+  height: 80px; /* Increased size */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative; /* Added for positioning the icon inside the input */
+  width: 100%;
+
+}
+
+.search-input {
+  width: 100%; /* Increased width */
+  padding: 10px 40px 10px 10px; /* Added padding for the icon */
+  border-radius: 25px; /* Rounder edges */
+  border: 1px solid #ccc;
+}
+
+.search-input::placeholder {
+  color: #999; /* Placeholder color */
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer; /* Make the icon clickable */
+}
+
+.search-button {
+  display: none; /* Removed external search button */
+}
